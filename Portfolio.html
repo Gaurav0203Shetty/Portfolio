@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <style>
+        * {
+            background-color: black;
+        }
+        p{
+            border: 1000px;
+            border-color: white;
+            color: white;
+            text-align: center;
+            font-size:xx-large;
+            font-family: Copperplate, Papyrus, fantasy;
+        }
+        .centered{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: lightgreen;
+            font-size:xx-large;
+            background-color: #000000; 
+            padding: 10px 20px;  
+            text-align: center;
+            mix-blend-mode: exclusion;
+            font-family: Copperplate, Papyrus, fantasy;
+            border-width: 20px; border-style: solid; border-color: white;
+        }
+        a { color:lightgreen } /* Globally */
+
+             /* Each state */
+
+             a:visited { text-decoration:black; color:lightgreen; }
+             a:hover { text-decoration:none; color:white; }
+             a:focus { text-decoration: none; color:yellow; }
+             a:hover, a:active { text-decoration: none; color:white }
+    </style>
+</head>
+<body>
+    <p class="first_1">Gaurav Shetty</p>
+    <div class="container">
+      <img src="code.jpeg" alt="error" height="870" width="820" align="left">
+      <img src="photo.jpeg" alt="error" height="870" width="844" align="right">
+      <div class="centered"><a href="about.html">ABOUT</a>&emsp;<a href="badges.html">&nbsp;BADGES</a><br><br><br><a href="photos.html">PHOTOS</a>&emsp;<a href="contact.html">CONTACT</a></div>
+    </div>
+</body>
+</html>
